@@ -12,7 +12,7 @@
 #---------------------------------------------------------------
 #         Method: main
 #     Parameters: None
-#    Description: Fun data types
+#    Description: Class examples - fun with data types
 #--------------------------------------------------------------
 def main():
     #immutable data types:
