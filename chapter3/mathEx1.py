@@ -67,6 +67,7 @@ def main():
     print(round(pi)) #with no second parameter
     print(round(pi, 2)) #with 2 decimal places
     print(round(pi, 5))  #with 5 decimal places
+    print(abs(-1.234)) #1.234
 
 main()
 
