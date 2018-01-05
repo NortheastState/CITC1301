@@ -37,7 +37,6 @@ weeklyIncome = hourlyWage * hoursWorked
 #output results
 print("Weekly income after raise:", weeklyIncome)
 
-
 #Getting input from the user from a console window
 #is accomplished using the built in method "input"
 #Here is the statement form:
@@ -55,6 +54,10 @@ print("You entered:", firstName)
 anAmount = input("Enter an amount: ")
 #we must "CAST" the input to an integer in order to do math.
 print(int(anAmount) + 3)
+
+#it is important to realize that case matter in python
+#So firstName and FirstName are two different variable names
+#print(FirstName) causes and error for example
 
 #There is a python method call eval() that will convert the input
 #into a number. But, due to security reasons, we will not use
