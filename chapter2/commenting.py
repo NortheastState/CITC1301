@@ -26,6 +26,6 @@
 def main(greeting):
     print(greeting)
 
-#inline comments should be pseudocode and can be a none-code
-#way to solve the problem stated in the description.
+# inline comments should be pseudocode and can be a none-code
+# way to solve the problem stated in the description.
 main("Hello Foobar! Who dat!")

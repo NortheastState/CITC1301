@@ -19,9 +19,9 @@
 def main(greeting: object):
     print(greeting)
 
-#create a variable to hold the input from the user
+# create a variable to hold the input from the user
 inputGreeting = input("Please enter a greeting: ")
 
-#call the main method sending the greeting
+# call the main method sending the greeting
 main(inputGreeting)
 
