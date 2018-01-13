@@ -40,3 +40,4 @@ import tkinter
 
 # now lets call the test method that comes with the install
 tkinter._test()
+
