@@ -45,8 +45,8 @@ Chapter  2: Writing Simple Programs
 Chapter  3: Computing with Number
 Chapter  7: Decision Structures
 Chapter  5: Sequences: Strings, Lists, and Files
-Chapter  8: Loop Structures
 Chapter  6: Defining Functions
+Chapter  8: Loop Structures
+Chapter 10: Classes
 Chapter  4: Graphics
 Chapter  9: Simulation
-Chapter 10: Classes
