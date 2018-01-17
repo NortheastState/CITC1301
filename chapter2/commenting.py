@@ -4,11 +4,11 @@
 #        Date: 01/01/2018
 #      Course: CITC 1301
 #     Section: A70
-# Description: This program outputs a simple hello message to
-#              the console window. It also illustrates the use
-#              of comments. All python files should have a header
-#              that states what problem the program is solving.
-#              In other words, what does the program do?
+# Description: This should be a detailed problem statement. Here
+#              is where you specify what it is you are going to
+#              have your program do. Remember, you do not need
+#              to solve the problem here. You need only state
+#              the problem clearly and concisely.
 #
 #===============================================================
 

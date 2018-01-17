@@ -16,7 +16,7 @@
 #    Description: Print a greeting to the console window from
 #                 the parameter passed into the method.
 #--------------------------------------------------------------
-def main(greeting: object):
+def main(greeting):
     print(greeting)
 
 # create a variable to hold the input from the user
@@ -24,4 +24,6 @@ inputGreeting = input("Please enter a greeting: ")
 
 # call the main method sending the greeting
 main(inputGreeting)
+
+
 

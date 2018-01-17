@@ -28,3 +28,11 @@ The Software Process:
         white-box, black-box, regression testing.
     6. Maintain the program - change the program by fixing bugs,
         adding features, or do refactoring.
+
+It is important to note that a clear design is not always possible it
+the problem is too complex. In cases like this, you will do some
+experimentation and try to solve the parts that you are not sure how to
+solve. Then, after you have all the pieces you iterate back to the top
+of the development process with a firm idea of the solution.
+
+*** A good problem description will result in half of the solution. ***

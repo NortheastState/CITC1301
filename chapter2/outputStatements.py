@@ -41,7 +41,7 @@ print("Hello\nWorld")
 # do. An example is replacing the newline character with a space.
 # Notice that even though we have two print statements below,
 # The output to the console is a single line.
-print("Who dat?", end=" ")
+print("Who dat?")
 print("Foobar!")
 
 # We can output variables in "print". A variable is just
