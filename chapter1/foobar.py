@@ -18,8 +18,12 @@
 # define the main function that takes no parameters.
 # functions are not called when the program executes, instead it
 # called only by name underneath.
+
+
 def main():
     print("Hello Mr. Foobar!")
 
 # make a call to the main() function above
+
+
 main()
