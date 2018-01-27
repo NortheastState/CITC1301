@@ -1,4 +1,4 @@
-#===============================================================
+# ===============================================================
 #
 #        Name: David Blair
 #        Date: 01/01/2018
@@ -8,7 +8,7 @@
 #              using the console window. It also will demonstrate
 #              using the assignment operator.
 #
-#===============================================================
+# ===============================================================
 
 # A variable is a named memory location where we can use to
 # hold information that we can use anywhere in the scope it
