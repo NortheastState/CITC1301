@@ -43,7 +43,7 @@ def main():
     print() # add a line
 
     # Aliging text use < > ^ *^ for left, right, centered, centered with fill character
-    print("{0:<20}{0:>20}{0:^20}{0:*^20}".format("Mr. Foobar"))
+    print("{0:<20}{0:>20}{0:^20}{0:-^20}".format(" Mr. Foobar "))
 
     print()
 
@@ -54,6 +54,8 @@ def main():
 
     # show sign with a whole number, left or right aligned, field width 10 characters
     print("{0:<+10d} {1:>+10d}".format(3123, -3123))
+
+    print("${0:,}".format(123456234234789))
 
     print()
 

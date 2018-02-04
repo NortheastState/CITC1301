@@ -1,4 +1,4 @@
-#===============================================================
+# ===============================================================
 #
 #        Name: David Blair
 #        Date: 01/01/2018
@@ -10,10 +10,10 @@
 #              to solve the problem here. You need only state
 #              the problem clearly and concisely.
 #
-#===============================================================
+# ===============================================================
 
 
-#---------------------------------------------------------------
+# ---------------------------------------------------------------
 #         Method: main
 #     Parameters: greeting: String
 #    Description: Print a greeting to the console window. Like
@@ -22,7 +22,7 @@
 #                 If you find that the method does more than one
 #                 thing, then consider decomposing the method
 #                 to several other methods.
-#--------------------------------------------------------------
+# --------------------------------------------------------------
 def main(greeting):
     print(greeting)
 
