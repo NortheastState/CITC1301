@@ -1,4 +1,4 @@
-#===============================================================
+# ===============================================================
 #
 #        Name: David Blair
 #        Date: 01/01/2018
@@ -7,14 +7,18 @@
 # Description: This program explores some of the python data
 #              types.
 #
-#===============================================================
+# ===============================================================
 
-#---------------------------------------------------------------
+# ---------------------------------------------------------------
 #         Method: main
 #     Parameters: None
 #    Description: Class examples - fun with data types
-#--------------------------------------------------------------
+# --------------------------------------------------------------
+
+
 def main():
+
+
     # immutable data types:
     # int
     # float
@@ -34,7 +38,7 @@ def main():
 
     # * - these data types will be explored later
 
-    print(type("Foobar")) # str
+    print(type("Foobar"))  # str
     print(type(3 * 10))  # int
     print(type(3.0 * 10))  # float
     print(type(3.0 * 10.0))  # float
@@ -53,7 +57,6 @@ def main():
     print(int("4"))   # converts to int
     print(float("4.50"))  # converts to float
     print(bool("True"))  # converts to bool
-
     print(float(4))  # 4.0
 
     # round to integer value
