@@ -13,7 +13,7 @@
 # and outputting the results back to the user
 def main():
     # prompt user for a valid grade
-    grade = input("Enter a grade between 0 and 100: ")
+    grade = int(input("Enter a grade between 0 and 100: "))
     # check input to between 0 and 100
     if grade < 0:
         print("Invalid entry")
@@ -21,7 +21,7 @@ def main():
         print("Invalid entry")
     else:
         # print the results of converting a numeric grade to a letter grade
-        print(calculateLetterGrade(grade))
+        print("The letter grade equivalent is: " + calculateLetterGrade(grade))
 
 # process the grade passed in by converting the numeric grade to a letter grade
 # and then returning that letter grade to the calling function
