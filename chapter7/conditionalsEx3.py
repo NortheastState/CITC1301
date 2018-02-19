@@ -22,11 +22,11 @@ def main():
 
     if grade >= 90:
         letterGrade = "A"
-    elif(grade >= 80):
+    elif grade >= 80:
         letterGrade = "B"
-    elif(grade >= 70):
+    elif grade >= 70:
         letterGrade = "C"
-    elif(grade >= 65):
+    elif grade >= 65:
         letterGrade = "D"
     else:
         letterGrade = "F"
