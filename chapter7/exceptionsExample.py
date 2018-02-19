@@ -19,13 +19,13 @@ def main():
         print(var2)
 
     except NameError as err:
-        print("Value was not a number!")
+        print("Value was not a number!", err)
 
     except ValueError as err:
-        print("Value error, oops")
+        print("Value error, oops", err)
 
     except ZeroDivisionError as err:
-        print("There was a divide by zero error!")
+        print("There was a divide by zero error!", err)
 
     except:
         print("Something else happened")
