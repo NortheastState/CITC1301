@@ -21,4 +21,5 @@ def main():
     print(var[21:])   # print from 21 to the end
     print(var[:])    # print start to end
 
+
 main()
