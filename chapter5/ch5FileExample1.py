@@ -15,7 +15,7 @@ def writeToFile():
 
         # create a file object to write to test.txt file
         # note the "w" in the parameter list.
-        myFile = open("test.txt", "w")
+        myFile = open("happy_gizzard.txt", "w")
 
         print("Here is some text that I want to write out to a file", file=myFile)
         print("And {0:^40}\nhere is\n\tsome more text".format("center using string format()"), file=myFile)
