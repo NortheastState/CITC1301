@@ -35,6 +35,17 @@ def main():
     print(varArray[8])  # print ninth cell
 
     # ---------------------------------
+    # For loops
+    print("\n\nFor loop example:")
+    for aStr in varArray:
+        print(aStr)
+
+    print()
+    lengthOfArray = len(varArray)
+    for i in range(lengthOfArray):
+        print(varArray[i])
+
+    # ---------------------------------
 
     var1 = "foobar, being captain of the universe, is always prepared to fight evil."
 
