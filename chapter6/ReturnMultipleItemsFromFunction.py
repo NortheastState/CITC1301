@@ -32,6 +32,7 @@ def getRandomNumbers():
 
 
 r1, r2, r3, r4, r5, r6, r7 = getRandomNumbers()
+print()
 print("r1:", r1)
 print("r2:", r2)
 print("r3:", r3)
