@@ -32,7 +32,7 @@ class Student:
         return self.lastName
 
     def setLastName(self, lastName):
-        self.lastName
+        self.lastName = lastName
 
     def getStudentID(self):
         return self.studentID
