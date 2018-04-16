@@ -14,7 +14,7 @@ class Student:
     firstName = ''
     lastName = ''
     studentID = ''
-    #  grades = []  # ERROR, mutable types are shared between all object (static)
+    #  grades = []  # Careful, mutable types are shared between all object (static)
 
     def __init__(self, firstName, lastName, studentID):
         self.firstName = firstName
@@ -45,6 +45,33 @@ class Student:
 
     def getGrades(self):
         return self.grades
+
+    def getGradeAverage(self):
+        total = 0
+        average = 0.0
+        if len(self.grades) > 0:
+            for grade in self.grades:
+                total += grade
+            average = total / len(self.grades)
+        return average
+
+    def getMaxGrade(self):
+        temp = 0
+        if len(self.grades) > 0:
+            temp = self.grades[0]
+            for grade in self.grades:
+                if temp < grade:
+                    temp = grade
+        return temp
+
+    def getMinGrade(self):
+        temp = 0
+        if len(self.grades) > 0:
+            temp = self.grades[0]
+            for grade in self.grades:
+                if temp > grade:
+                    temp = grade
+        return temp
 
     def toString(self):
         return "First Name: " + self.firstName + ", Last Name: " + self.lastName + ", ID: " + self.studentID \
