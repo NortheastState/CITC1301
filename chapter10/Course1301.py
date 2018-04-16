@@ -18,9 +18,9 @@ def main():
     courseCISP1301 = []
 
     # create a few new Student objects from the class template
-    student1 = Student("Foo", "Bar", "A12")
-    student2 = Student("Bo", "Cephus", "A20")
-    student3 = Student("Curtis", "Loew", "A05")
+    student1 = Student("Foo", "Bar", "A1")
+    student2 = Student("Bo", "Cephus", "A2")
+    student3 = Student("Curtis", "Loew", "A3")
 
     # add students to the list
     courseCISP1301.append(student1)
@@ -41,7 +41,7 @@ def main():
     print()
     # output all students
     for student in courseCISP1301:
-        print(student.toString())
+        print(student.toString(), student.getGradeAverage(), student.getMaxGrade(), student.getMinGrade())
 
 
 main()
