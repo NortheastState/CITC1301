@@ -26,7 +26,6 @@ def main():
     print()
     print(card1.toString(), ", Value:", card1.getValue())
     print(card2.toString(), ", Value:", card2.getValue())
-    print("Current value of hand:", card1.getValue() + card2.getValue())
 
     # add cards to my hand
     playerHand = []
@@ -38,6 +37,12 @@ def main():
     # print player hand
     for aCard in playerHand:
         print(aCard.toString())
+
+    # get value of player hand
+    playerHandValue = 0
+    for aCard in playerHand:
+        playerHandValue += aCard.getValue()
+    print("Current value for players hand:", playerHandValue)
 
 
 main()
